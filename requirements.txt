@@ -1,0 +1,18 @@
+Installation Instructions for Windows Server 2012 R2
+
+Install Apache for Windows
+Install Python 3.5.x
+Install Pywin32 for 64bit windows
+
+Modify C:\Apache24\conf\httpd.conf to ensure Python files are being handled appropriately.  
+
+Copy the following files into C:\Apache24\htdocs\
+
+* Directory called "css"
+* File called "index.html"
+* File called "reboot_mw.py"
+
+Ensure your Windows Computer running Mailware 2014 has an exception created in the Firewall for Apache to be usable from other computers on the network.
+
+Thanks for reading!
+
